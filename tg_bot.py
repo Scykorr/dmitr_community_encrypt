@@ -1,5 +1,5 @@
 """
-t.me/HelperKurskbot
+t.me/FAStEncryptMsgBot
 
 by Anton Fedosov
 
