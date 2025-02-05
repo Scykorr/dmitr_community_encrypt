@@ -19,6 +19,7 @@ class MainClass(QtWidgets.QMainWindow, Ui_MainWindow):
             lambda: self.choose_operator(page_index=1))
         self.pushButton_put_msg_window.clicked.connect(
             lambda: self.choose_operator(page_index=0))
+        self.pushButton_uncypher.clicked.connect(self.decrypt_msg)
 
     def gen_keys(self):
         self.plainTextEdit_public_key.clear()
@@ -37,15 +38,32 @@ class MainClass(QtWidgets.QMainWindow, Ui_MainWindow):
         self.plainTextEdit_result_msg.clear()
         inp_msg = str(self.plainTextEdit_open_text.toPlainText()
                       ).encode('utf8')
-        crypto = rsa.encrypt(inp_msg, self.public_key)
+        public_key_params = str(
+            self.plainTextEdit_public_key_on_get.toPlainText()).replace('PublicKey(', '')
+        public_key_params = public_key_params.replace(',', '')
+        public_key_params = public_key_params.replace(')', '')
+        public_key_params = public_key_params.split()
+        print(public_key_params)
+        public_key = rsa.key.PublicKey(
+            int(public_key_params[0]), int(public_key_params[1]))
+        crypto = rsa.encrypt(inp_msg, public_key)
+        print(type(crypto))
         self.plainTextEdit_result_msg.appendPlainText(str(crypto))
-        # message = rsa.decrypt(crypto, self.private_key)
-        # print(message.decode('utf-8'))
         with open('message.txt', mode='w') as f:
             f.write(f'{crypto}')
 
     def choose_operator(self, page_index):
         self.stackedWidget.setCurrentIndex(page_index)
+
+    def decrypt_msg(self):
+        inp_encrypt_msg = bytes(
+            str(self.plainTextEdit_get_msg.toPlainText()).encode('utf8'))
+        inp_encrypt_msg = bytes(
+            b'J\x07\xc4\x0c\xca\xe0\xe6\x1c\xbd\x1a\xb6\xbd}\xd7\x9c\x98')
+        self.private_key = rsa.key.PrivateKey(277623006974286306300466805308691768327, 65537,
+                                              275038969953148404589898004223643669873, 269462156046169262777, 1030285703372457151)
+        message = rsa.decrypt(inp_encrypt_msg, self.private_key)
+        print(message.decode('utf-8'))
 
 
 if __name__ == "__main__":
