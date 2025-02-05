@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'client.ui'
+# Form implementation generated from reading ui file 'UI/client.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.11
 #
@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.stackedWidget = QtWidgets.QStackedWidget(self.centralwidget)
-        self.stackedWidget.setGeometry(QtCore.QRect(20, 20, 621, 691))
+        self.stackedWidget.setGeometry(QtCore.QRect(20, 20, 621, 751))
         self.stackedWidget.setObjectName("stackedWidget")
         self.page = QtWidgets.QWidget()
         self.page.setObjectName("page")
@@ -82,6 +82,18 @@ class Ui_MainWindow(object):
         self.pushButton_get_msg_window = QtWidgets.QPushButton(self.page)
         self.pushButton_get_msg_window.setGeometry(QtCore.QRect(490, 0, 101, 31))
         self.pushButton_get_msg_window.setObjectName("pushButton_get_msg_window")
+        self.pushButton = QtWidgets.QPushButton(self.page)
+        self.pushButton.setGeometry(QtCore.QRect(430, 710, 171, 31))
+        self.pushButton.setObjectName("pushButton")
+        self.lineEdit_tg_username = QtWidgets.QLineEdit(self.page)
+        self.lineEdit_tg_username.setGeometry(QtCore.QRect(250, 710, 151, 31))
+        self.lineEdit_tg_username.setObjectName("lineEdit_tg_username")
+        self.label_11 = QtWidgets.QLabel(self.page)
+        self.label_11.setGeometry(QtCore.QRect(10, 710, 231, 31))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.label_11.setFont(font)
+        self.label_11.setObjectName("label_11")
         self.stackedWidget.addWidget(self.page)
         self.page_2 = QtWidgets.QWidget()
         self.page_2.setObjectName("page_2")
@@ -91,9 +103,9 @@ class Ui_MainWindow(object):
         font.setPointSize(11)
         self.label_7.setFont(font)
         self.label_7.setObjectName("label_7")
-        self.pushButton_get_msg_window_2 = QtWidgets.QPushButton(self.page_2)
-        self.pushButton_get_msg_window_2.setGeometry(QtCore.QRect(490, 0, 101, 31))
-        self.pushButton_get_msg_window_2.setObjectName("pushButton_get_msg_window_2")
+        self.pushButton_put_msg_window = QtWidgets.QPushButton(self.page_2)
+        self.pushButton_put_msg_window.setGeometry(QtCore.QRect(490, 0, 101, 31))
+        self.pushButton_put_msg_window.setObjectName("pushButton_put_msg_window")
         self.label_8 = QtWidgets.QLabel(self.page_2)
         self.label_8.setGeometry(QtCore.QRect(10, 70, 181, 16))
         font = QtGui.QFont()
@@ -109,9 +121,9 @@ class Ui_MainWindow(object):
         font.setPointSize(11)
         self.label_9.setFont(font)
         self.label_9.setObjectName("label_9")
-        self.plainTextEdit_get_msg_2 = QtWidgets.QPlainTextEdit(self.page_2)
-        self.plainTextEdit_get_msg_2.setGeometry(QtCore.QRect(10, 320, 601, 51))
-        self.plainTextEdit_get_msg_2.setObjectName("plainTextEdit_get_msg_2")
+        self.plainTextEdit_public_key_on_get = QtWidgets.QPlainTextEdit(self.page_2)
+        self.plainTextEdit_public_key_on_get.setGeometry(QtCore.QRect(10, 320, 601, 51))
+        self.plainTextEdit_public_key_on_get.setObjectName("plainTextEdit_public_key_on_get")
         self.label_10 = QtWidgets.QLabel(self.page_2)
         self.label_10.setGeometry(QtCore.QRect(10, 500, 211, 16))
         font = QtGui.QFont()
@@ -121,9 +133,9 @@ class Ui_MainWindow(object):
         self.plainTextEdit_get_msg_result = QtWidgets.QPlainTextEdit(self.page_2)
         self.plainTextEdit_get_msg_result.setGeometry(QtCore.QRect(10, 530, 601, 151))
         self.plainTextEdit_get_msg_result.setObjectName("plainTextEdit_get_msg_result")
-        self.pushButton_cypher_2 = QtWidgets.QPushButton(self.page_2)
-        self.pushButton_cypher_2.setGeometry(QtCore.QRect(180, 410, 281, 31))
-        self.pushButton_cypher_2.setObjectName("pushButton_cypher_2")
+        self.pushButton_uncypher = QtWidgets.QPushButton(self.page_2)
+        self.pushButton_uncypher.setGeometry(QtCore.QRect(180, 410, 281, 31))
+        self.pushButton_uncypher.setObjectName("pushButton_uncypher")
         self.stackedWidget.addWidget(self.page_2)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
@@ -152,13 +164,15 @@ class Ui_MainWindow(object):
         self.label_6.setText(_translate("MainWindow", "Отправка сообщения"))
         self.pushButton_get_msg_window.setText(_translate("MainWindow", "Получить\n"
 " сообщение"))
+        self.pushButton.setText(_translate("MainWindow", "Отправить"))
+        self.label_11.setText(_translate("MainWindow", "Логин пользователя в telegramm"))
         self.label_7.setText(_translate("MainWindow", "Получение сообщения"))
-        self.pushButton_get_msg_window_2.setText(_translate("MainWindow", "Отправить\n"
+        self.pushButton_put_msg_window.setText(_translate("MainWindow", "Отправить\n"
 " сообщение"))
         self.label_8.setText(_translate("MainWindow", "Полученное сообщение"))
         self.label_9.setText(_translate("MainWindow", "Открытый ключ"))
         self.label_10.setText(_translate("MainWindow", "Расшифрованное сообщение"))
-        self.pushButton_cypher_2.setText(_translate("MainWindow", "Расшифровать"))
+        self.pushButton_uncypher.setText(_translate("MainWindow", "Расшифровать"))
 
 
 if __name__ == "__main__":
