@@ -3,6 +3,7 @@ from PyQt5.QtCore import Qt
 from GUI.client import Ui_MainWindow
 import socket
 import rsa
+import json
 
 
 class MainClass(QtWidgets.QMainWindow, Ui_MainWindow):
@@ -49,20 +50,34 @@ class MainClass(QtWidgets.QMainWindow, Ui_MainWindow):
         crypto = rsa.encrypt(inp_msg, public_key)
         print(type(crypto))
         self.plainTextEdit_result_msg.appendPlainText(str(crypto))
-        with open('message.txt', mode='w') as f:
-            f.write(f'{crypto}')
+        crypto = crypto.decode('CP866')
+        with open('message.json', 'w') as fh:
+            json.dump(crypto, fh)
 
     def choose_operator(self, page_index):
         self.stackedWidget.setCurrentIndex(page_index)
 
     def decrypt_msg(self):
-        inp_encrypt_msg = bytes(
-            str(self.plainTextEdit_get_msg.toPlainText()).encode('utf8'))
-        inp_encrypt_msg = bytes(
-            b'J\x07\xc4\x0c\xca\xe0\xe6\x1c\xbd\x1a\xb6\xbd}\xd7\x9c\x98')
-        self.private_key = rsa.key.PrivateKey(277623006974286306300466805308691768327, 65537,
-                                              275038969953148404589898004223643669873, 269462156046169262777, 1030285703372457151)
-        message = rsa.decrypt(inp_encrypt_msg, self.private_key)
+
+        with open('message.json', 'r') as fh:
+            inp_encrypt_msg = json.load(fh)
+        self.plainTextEdit_get_msg.appendPlainText(inp_encrypt_msg)
+        inp_encrypt_msg = self.plainTextEdit_get_msg.toPlainText()
+        inp_encrypt_msg = bytes(inp_encrypt_msg.encode('CP866'))
+
+        with open('keys.txt', mode='r') as f1:
+            keys = list()
+            for el in f1:
+                keys.append(el.strip())
+        private_key = keys[1].replace(
+            'PrivateKey(', '').replace(')', '').replace(',', '').split()
+        self.plainTextEdit_public_key.appendPlainText(keys[0])
+        self.plainTextEdit_private_key.appendPlainText(keys[1])
+        private_key = rsa.key.PrivateKey(int(private_key[0]), int(private_key[1]),
+                                         int(private_key[2]), int(private_key[3]), int(private_key[4]))
+        message = rsa.decrypt(inp_encrypt_msg, private_key)
+        self.plainTextEdit_get_msg_result.appendPlainText(
+            message.decode('utf-8'))
         print(message.decode('utf-8'))
 
 

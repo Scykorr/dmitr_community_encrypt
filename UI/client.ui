@@ -249,21 +249,11 @@
        <string>Полученное сообщение</string>
       </property>
      </widget>
-     <widget class="QPlainTextEdit" name="plainTextEdit_get_msg">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>50</y>
-        <width>601</width>
-        <height>151</height>
-       </rect>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_10">
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>510</y>
+        <y>420</y>
         <width>211</width>
         <height>16</height>
        </rect>
@@ -281,7 +271,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>540</y>
+        <y>450</y>
         <width>601</width>
         <height>151</height>
        </rect>
@@ -291,7 +281,7 @@
       <property name="geometry">
        <rect>
         <x>190</x>
-        <y>470</y>
+        <y>380</y>
         <width>281</width>
         <height>31</height>
        </rect>
@@ -304,7 +294,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>310</y>
+        <y>220</y>
         <width>601</width>
         <height>41</height>
        </rect>
@@ -314,7 +304,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>280</y>
+        <y>190</y>
         <width>151</width>
         <height>16</height>
        </rect>
@@ -332,7 +322,7 @@
       <property name="geometry">
        <rect>
         <x>170</x>
-        <y>220</y>
+        <y>130</y>
         <width>113</width>
         <height>31</height>
        </rect>
@@ -345,7 +335,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>390</y>
+        <y>300</y>
         <width>601</width>
         <height>41</height>
        </rect>
@@ -355,7 +345,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>220</y>
+        <y>130</y>
         <width>141</width>
         <height>21</height>
        </rect>
@@ -373,7 +363,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>360</y>
+        <y>270</y>
         <width>151</width>
         <height>16</height>
        </rect>
@@ -391,13 +381,23 @@
       <property name="geometry">
        <rect>
         <x>310</x>
-        <y>220</y>
+        <y>130</y>
         <width>281</width>
         <height>31</height>
        </rect>
       </property>
       <property name="text">
        <string>Сгенерировать ключи</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_get_msg">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>621</width>
+        <height>71</height>
+       </rect>
       </property>
      </widget>
     </widget>
