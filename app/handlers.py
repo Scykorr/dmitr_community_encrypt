@@ -3,6 +3,7 @@ from aiogram.filters import Command, CommandStart
 from aiogram.fsm.context import FSMContext
 from app.keyboards import get_number, registration, help_categories
 from .states import Register
+from aiogram.types.input_file import FSInputFile
 
 router = Router()
 
@@ -14,10 +15,10 @@ async def get_message(message: types.Message):
                          'некоторую информацию о себе (кнопка ниже)', reply_markup=registration)
 
 
-# @router.message(F.text == 'Регистрация')
-# async def register(message: types.Message, state: FSMContext):
-#     await state.set_state(Register.surname)
-#     await message.answer('Введите Вашу Фамилию: ')
+@router.message(F.text == 'Отправить файл')
+async def register(message: types.Message, state: FSMContext):
+    document = FSInputFile('keys.txt')
+    await message.answer_document(document)
 #
 #
 # @router.message(Register.surname)
