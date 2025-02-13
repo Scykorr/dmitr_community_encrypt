@@ -1,95 +1,308 @@
-[2025.02.12 07:47:54] Launched version: 5010007, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
-[2025.02.12 07:47:54] Executable dir: C:/Users/Administrator/AppData/Roaming/Telegram Desktop/, name: Telegram.exe
-[2025.02.12 07:47:54] Initial working dir: C:/Users/Administrator/AppData/Roaming/Telegram Desktop/
-[2025.02.12 07:47:54] Working dir: C:/Users/Administrator/AppData/Roaming/Telegram Desktop/
-[2025.02.12 07:47:54] Command line: C:\Users\Administrator\AppData\Roaming\Telegram Desktop\Telegram.exe
-[2025.02.12 07:47:54] Executable path before check: C:/Users/Administrator/AppData/Roaming/Telegram Desktop/Telegram.exe
-[2025.02.12 07:47:55] Logs started
-[2025.02.12 07:47:55] App Info: Shortcut validated at "C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Telegram Desktop/Telegram.lnk"
-[2025.02.12 07:47:55] AppUserModelID: Telegram.TelegramDesktop
-[2025.02.12 07:47:55] Using DirectX compiler 'C:\Users\Administrator\AppData\Roaming\Telegram Desktop\modules\x64\d3d\d3dcompiler_47.dll'.
-[2025.02.12 07:47:56] Connecting local socket to Global\d5c32825fb0463f894382b2b14a44928-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
-[2025.02.12 07:47:56] This is the only instance of Telegram, starting server and app...
-[2025.02.12 07:47:56] Moved logging from 'C:/Users/Administrator/AppData/Roaming/Telegram Desktop/log_start0.txt' to 'C:/Users/Administrator/AppData/Roaming/Telegram Desktop/log.txt'!
-[2025.02.12 07:47:56] Opened 'C:/Users/Administrator/AppData/Roaming/Telegram Desktop/tdata/working' for reading, the previous Telegram Desktop launch was not finished properly :( Crash log size: 0
-[2025.02.12 07:47:56] Global devicePixelRatio: 1
-[2025.02.12 07:47:56] QT_DPI_ADJUSTMENT_POLICY: AdjustDpi
-[2025.02.12 07:47:56] Primary screen DPI: 96, Base: 96.
-[2025.02.12 07:47:56] Computed screen scale: 100
-[2025.02.12 07:47:56] DevicePixelRatio: 1
-[2025.02.12 07:47:56] ScreenScale: 100
-[2025.02.12 07:47:56] Media Info: Type Playback, default: {0.0.0.00000000}.{f8d57fd2-bac7-4a2f-99bc-d2c861a7bddb}, list: { "Speakers (Nahimic Easy Surround device)" <{0.0.0.00000000}.{48f2dcb8-e379-44bf-9c35-6b63f3d22194}>, "Internal AUX Jack (Intel® Smart Sound Technology for Digital Microphones)" <{0.0.0.00000000}.{514e85f1-3bc4-42cb-911a-cb6b7fb01a91}>, "Speakers (Realtek(R) Audio)" <{0.0.0.00000000}.{587c8f57-bb69-4828-909d-844901ecfef5}>, "Speakers (2- High Definition Audio Device)" <{0.0.0.00000000}.{76556731-ac96-40af-a873-7f589d2d4562}>, "Digital Audio (S/PDIF) (2- High Definition Audio Device)" <{0.0.0.00000000}.{91d65077-a2d5-4c0a-9ba5-65c711e9b2a4}>, "Headphones (Realtek(R) Audio)" <{0.0.0.00000000}.{97b8852c-ba5f-478a-b5ad-d57bf2023c2f}>, "Speakers (High Definition Audio Device)" <{0.0.0.00000000}.{ba88b9e9-eb81-44f5-8e4e-f7a3a95a8681}>, "Speakers (Nahimic mirroring device)" <{0.0.0.00000000}.{beba19a9-5878-4f61-ab3f-5156a054656d}>, "Internal AUX Jack (2- High Definition Audio Device)" <{0.0.0.00000000}.{e3ac0224-d5e6-45c1-8e92-7feca8b66a21}>, "Headphones (2- High Definition Audio Device)" <{0.0.0.00000000}.{f8d57fd2-bac7-4a2f-99bc-d2c861a7bddb}> }, full list refresh: false
-[2025.02.12 07:47:56] Media Info: Type Capture, default: {0.0.1.00000000}.{35d72b59-09ab-4162-a89e-33aeac977488}, list: { "Microphone Array (Intel® Smart Sound Technology for Digital Microphones)" <{0.0.1.00000000}.{322eca50-3fe7-4bc1-8107-6c0610aca483}>, "Microphone (2- High Definition Audio Device)" <{0.0.1.00000000}.{35d72b59-09ab-4162-a89e-33aeac977488}>, "Stereo Mix (Realtek(R) Audio)" <{0.0.1.00000000}.{6630fcde-85d4-4cf8-aaad-f21178e2bdbf}>, "Microphone (Realtek(R) Audio)" <{0.0.1.00000000}.{9b246a10-068b-4136-963f-8e9b90672cb8}>, "Microphone (2- High Definition Audio Device)" <{0.0.1.00000000}.{9f37e38e-2fdb-472a-88ac-bd360924b9bc}>, "Line In (2- High Definition Audio Device)" <{0.0.1.00000000}.{a0c2fb29-0c0f-44d6-b787-1a24a191334f}>, "Internal AUX Jack (2- High Definition Audio Device)" <{0.0.1.00000000}.{b55594c0-36b7-47ac-8c4f-b89f97204756}>, "Microphone (High Definition Audio Device)" <{0.0.1.00000000}.{f1f4b93a-003d-49dc-a304-f40ab835b981}> }, full list refresh: false
-[2025.02.12 07:47:56] Media Error: Can't sync default device for type Camera, default: , list: {  }
-[2025.02.12 07:47:56] App Info: reading settings...
-[2025.02.12 07:47:56] App Info: reading encrypted settings...
-[2025.02.12 07:47:56] Lang Info: Loaded cached, keys: 8103
-[2025.02.12 07:47:56] Font: from ':/gui/fonts/OpenSans-Regular.ttf' loaded 'Open Sans'
-[2025.02.12 07:47:56] Font: from ':/gui/fonts/OpenSans-Italic.ttf' loaded 'Open Sans'
-[2025.02.12 07:47:56] Font: from ':/gui/fonts/OpenSans-SemiBold.ttf' loaded 'Open Sans Semibold'
-[2025.02.12 07:47:56] Font: from ':/gui/fonts/OpenSans-SemiBoldItalic.ttf' loaded 'Open Sans Semibold'
-[2025.02.12 07:47:56] Font: from ':/gui/fonts/Vazirmatn-UI-NL-Regular.ttf' loaded 'Vazirmatn UI NL'
-[2025.02.12 07:47:56] Font: from ':/gui/fonts/Vazirmatn-UI-NL-SemiBold.ttf' loaded 'Vazirmatn UI NL SemiBold'
-[2025.02.12 07:48:00] OpenAL Logging Level: (not set)
-[2025.02.12 07:48:01] App Info: reading accounts info...
-[2025.02.12 07:48:01] App Info: reading encrypted info...
-[2025.02.12 07:48:01] App Info: reading map...
-[2025.02.12 07:48:01] App Info: reading encrypted map...
-[2025.02.12 07:48:01] App Info: reading encrypted user settings...
-[2025.02.12 07:48:01] App Info: encrypted user settings read.
-[2025.02.12 07:48:01] App Info: reading encrypted mtp data...
-[2025.02.12 07:48:01] MTP Info: read keys, current: 5, to destroy: 0
-[2025.02.12 07:48:01] Map read time: 226
-[2025.02.12 07:48:01] App Info: reading encrypted mtp config...
-[2025.02.12 07:48:03] Export Info: Destroy top bar by controller removal.
-[2025.02.12 07:48:03] OpenGL: Using custom 'gpu_driver_bug_list.json'.
-[2025.02.12 07:48:03] OpenGL Profile: OpenGLES.
-[2025.02.12 07:48:03] OpenGL Renderer: ANGLE (Intel, Intel(R) UHD Graphics 750 Direct3D11 vs_5_0 ps_5_0, D3D11-31.0.101.4316)
-[2025.02.12 07:48:03] OpenGL Vendor: Google Inc. (Intel)
-[2025.02.12 07:48:03] OpenGL Version: OpenGL ES 3.0.0 (ANGLE 2.1.10 git hash: e3f59e8d0c3e)
-[2025.02.12 07:48:03] OpenGL Extensions: GL_OVR_multiview, GL_EXT_disjoint_timer_query, GL_OES_fbo_render_mipmap, GL_EXT_debug_label, GL_EXT_map_buffer_range, GL_EXT_texture_norm16, GL_OES_compressed_ETC2_sRGB8_alpha8_texture, GL_OES_depth32, GL_EXT_render_snorm, GL_OES_compressed_ETC2_sRGB8_texture, GL_ANGLE_texture_multisample, GL_EXT_draw_elements_base_vertex, GL_EXT_texture_compression_rgtc, GL_OES_texture_half_float, GL_ANGLE_framebuffer_blit, GL_ANGLE_translated_shader_source, GL_NV_EGL_stream_consumer_external, GL_EXT_draw_buffers_indexed, GL_OES_EGL_image_external, GL_CHROMIUM_copy_compressed_texture, GL_ANGLE_texture_compression_dxt5, GL_EXT_shader_texture_lod, GL_EXT_texture_filter_anisotropic, GL_CHROMIUM_bind_generates_resource, GL_EXT_discard_framebuffer, GL_EXT_float_blend, GL_ANGLE_program_cache_control, GL_OES_element_index_uint, GL_ANGLE_clip_cull_distance, GL_EXT_texture_compression_s3tc_srgb, GL_EXT_debug_marker, GL_EXT_robustness, GL_EXT_blend_minmax, GL_ANGLE_pack_reverse_row_order, GL_NV_fence, GL_OVR_multiview2, GL_EXT_read_format_bgra, GL_OES_texture_half_float_linear, GL_ANGLE_get_serialized_context_string, GL_ANGLE_multi_draw, GL_EXT_occlusion_query_boolean, , GL_EXT_frag_depth, GL_EXT_texture_border_clamp, GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture, GL_OES_get_program_binary, GL_ANGLE_multiview_multisample, GL_NV_shader_noperspective_interpolation, GL_ANGLE_provoking_vertex, GL_EXT_multi_draw_indirect, GL_EXT_polygon_offset_clamp, GL_ANGLE_texture_usage, GL_OES_compressed_EAC_RG11_unsigned_texture, GL_EXT_instanced_arrays, GL_CHROMIUM_copy_texture, GL_EXT_texture_type_2_10_10_10_REV, GL_OES_mapbuffer, GL_OES_draw_buffers_indexed, GL_OES_texture_float, GL_ANGLE_polygon_mode, GL_ANGLE_texture_compression_dxt3, GL_EXT_texture_mirror_clamp_to_edge, GL_ANGLE_renderability_validation, GL_ANGLE_client_arrays, GL_EXT_sRGB, GL_NV_pack_subimage, GL_OES_texture_border_clamp, GL_CHROMIUM_lose_context, GL_OES_texture_float_linear, GL_ANGLE_copy_texture_3d, GL_ANGLE_request_extension, GL_OES_rgb8_rgba8, GL_ANGLE_base_vertex_base_instance, GL_EXT_color_buffer_half_float, GL_EXT_color_buffer_float, GL_EXT_texture_compression_bptc, GL_OES_surfaceless_context, GL_EXT_depth_clamp, GL_NV_pixel_buffer_object, GL_OES_compressed_ETC2_RGB8_texture, GL_EXT_texture_format_BGRA8888, GL_AMD_performance_monitor, GL_WEBGL_video_texture, GL_CHROMIUM_sync_query, GL_OES_EGL_image_external_essl3, GL_OES_compressed_EAC_R11_unsigned_texture, GL_ANGLE_lossy_etc_decode, GL_OES_vertex_array_object, GL_OES_compressed_EAC_RG11_signed_texture, GL_ANGLE_shader_pixel_local_storage, GL_EXT_texture_compression_dxt1, GL_OES_depth24, GL_OES_compressed_EAC_R11_signed_texture, GL_EXT_EGL_image_external_wrap_modes, GL_EXT_multisampled_render_to_texture, GL_OES_sample_variables, GL_ANGLE_get_tex_level_parameter, GL_EXT_blend_func_extended, GL_APPLE_clip_distance, GL_EXT_unpack_subimage, GL_NV_framebuffer_blit, GL_EXT_draw_buffers, GL_ANGLE_instanced_arrays, GL_CHROMIUM_bind_uniform_location, GL_ANGLE_framebuffer_multisample, GL_OES_shader_multisample_interpolation, GL_OES_texture_stencil8, GL_ANGLE_memory_size, GL_OES_compressed_ETC2_RGBA8_texture, GL_EXT_clip_control, GL_KHR_parallel_shader_compile, GL_ANGLE_stencil_texturing, GL_KHR_debug, GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture, GL_EXT_base_instance, GL_EXT_clip_cull_distance, GL_OES_packed_depth_stencil, GL_OES_standard_derivatives, GL_EXT_texture_storage, GL_ANGLE_base_vertex_base_instance_shader_builtin, GL_ANGLE_depth_texture, GL_EXT_texture_rg, GL_ANGLE_robust_client_memory, GL_OES_EGL_image, GL_OES_texture_npot, GL_EXT_conservative_depth, GL_ANGLE_shader_pixel_local_storage_coherent, GL_OES_draw_elements_base_vertex
-[2025.02.12 07:48:03] EGL Extensions: EGL_EXT_create_context_robustness, EGL_ANGLE_d3d_share_handle_client_buffer, EGL_ANGLE_d3d_texture_client_buffer, EGL_ANGLE_surface_d3d_texture_2d_share_handle, EGL_ANGLE_query_surface_pointer, EGL_ANGLE_window_fixed_size, EGL_ANGLE_keyed_mutex, EGL_ANGLE_surface_orientation, EGL_ANGLE_direct_composition, EGL_ANGLE_windows_ui_composition, EGL_NV_post_sub_buffer, EGL_KHR_create_context, EGL_KHR_image, EGL_KHR_image_base, EGL_KHR_gl_texture_2D_image, EGL_KHR_gl_texture_cubemap_image, EGL_KHR_gl_renderbuffer_image, EGL_KHR_get_all_proc_addresses, EGL_KHR_stream, EGL_KHR_stream_consumer_gltexture, EGL_NV_stream_consumer_gltexture_yuv, EGL_ANGLE_stream_producer_d3d_texture, EGL_ANGLE_create_context_webgl_compatibility, EGL_CHROMIUM_create_context_bind_generates_resource, EGL_CHROMIUM_sync_control, EGL_EXT_pixel_format_float, EGL_KHR_surfaceless_context, EGL_ANGLE_display_texture_share_group, EGL_ANGLE_display_semaphore_share_group, EGL_ANGLE_create_context_client_arrays, EGL_ANGLE_program_cache_control, EGL_ANGLE_robust_resource_initialization, EGL_ANGLE_create_context_extensions_enabled, EGL_ANDROID_blob_cache, EGL_ANDROID_recordable, EGL_ANGLE_image_d3d11_texture, EGL_ANGLE_create_context_backwards_compatible, EGL_KHR_no_config_context, EGL_KHR_create_context_no_error, EGL_KHR_reusable_sync, 
-[2025.02.12 07:48:03] OpenGL: QOpenGLContext created, version: 3.3.
-[2025.02.12 07:48:03] OpenGL: [TRUE] (Window)
-[2025.02.12 07:48:06] API Warning: not loaded minimal channel applied.
-[2025.02.12 07:48:09] RPC Error: request 81 got fail with code 400, error WEBFILE_NOT_AVAILABLE
-[2025.02.12 07:48:49] RPC Error: request 100 got fail with code 400, error PEER_ID_INVALID
-[2025.02.12 07:52:29] RPC Error: request 410 got fail with code 400, error PEER_ID_INVALID
-[2025.02.12 07:52:29] RPC Error: request 427 got fail with code 400, error PEER_ID_INVALID
-[2025.02.12 07:52:31] Message Info: bad message notification received (error_code 33) for msg_id = 7470391016395822408, seq_no = 16
-[2025.02.12 07:52:31] Message Info: bad message notification received, msgId 7470391016395822408, error_code 33
-[2025.02.12 07:52:32] Message Info: bad message notification received (error_code 33) for msg_id = 7470391018036422088, seq_no = 398
-[2025.02.12 07:52:32] Message Info: bad message notification received, msgId 7470391018036422088, error_code 33
-[2025.02.12 08:00:06] Audio Info: recreating audio device and reattaching the tracks
-[2025.02.12 08:00:07] Audio Info: Closing audio playback device.
-[2025.02.12 08:00:11] Audio Info: recreating audio device and reattaching the tracks
-[2025.02.12 08:01:42] Audio Info: Closing audio playback device.
-[2025.02.12 08:01:42] App Info: writing encrypted user settings...
-[2025.02.12 08:03:06] RPC Error: request 1656 got fail with code 400, error WEBFILE_NOT_AVAILABLE
-[2025.02.12 08:11:24] Audio Info: recreating audio device and reattaching the tracks
-[2025.02.12 08:11:26] Audio Info: Closing audio playback device.
-[2025.02.12 08:33:15] Config Error: Bad date frame for simple config: 1583323746-1585915746, our time is 1739338392.
-[2025.02.12 08:47:35] Audio Info: recreating audio device and reattaching the tracks
-[2025.02.12 08:47:37] Audio Info: Closing audio playback device.
-[2025.02.12 08:52:05] Audio Info: recreating audio device and reattaching the tracks
-[2025.02.12 08:52:07] Audio Info: Closing audio playback device.
-[2025.02.12 09:02:32] API Warning: not loaded minimal channel applied.
-[2025.02.12 09:05:15] Audio Info: recreating audio device and reattaching the tracks
-[2025.02.12 09:05:17] Audio Info: Closing audio playback device.
-[2025.02.12 09:12:31] Theme Warning: Skipping value 'mediaviewSaveMsgBg: toastBg' (expected a color value in #rrggbb or #rrggbbaa or a previously defined key in the color scheme)
-[2025.02.12 09:12:31] Theme Warning: Skipping value 'mediaviewSaveMsgFg: toastFg' (expected a color value in #rrggbb or #rrggbbaa or a previously defined key in the color scheme)
-[2025.02.12 09:12:31] Theme Warning: Skipping value 'importantTooltipBg: toastBg' (expected a color value in #rrggbb or #rrggbbaa or a previously defined key in the color scheme)
-[2025.02.12 09:12:31] Theme Warning: Skipping value 'importantTooltipFg: toastFg' (expected a color value in #rrggbb or #rrggbbaa or a previously defined key in the color scheme)
-[2025.02.12 09:12:31] Theme Warning: Skipping value 'importantTooltipFgLink: mediaviewTextLinkFg' (expected a color value in #rrggbb or #rrggbbaa or a previously defined key in the color scheme)
-[2025.02.12 09:14:15] Audio Info: recreating audio device and reattaching the tracks
-[2025.02.12 09:14:17] Audio Info: Closing audio playback device.
-[2025.02.12 09:16:11] Skipping message, because it is already in blocks!
-[2025.02.12 09:16:26] Skipping message, because it is already in blocks!
-[2025.02.12 09:16:45] Skipping message, because it is already in blocks!
-[2025.02.12 09:17:43] RPC Error: request 2531 got fail with code 400, error PEER_ID_INVALID
-[2025.02.12 09:17:43] RPC Error: request 2530 got fail with code 400, error BOT_ADMIN_REQUIRED
-[2025.02.12 09:17:49] RPC Error: request 2538 got fail with code 400, error BOT_ADMIN_REQUIRED
-[2025.02.12 09:17:49] RPC Error: request 2539 got fail with code 400, error PEER_ID_INVALID
-[2025.02.12 09:18:11] RPC Error: request 2541 got fail with code 400, error PHONE_NOT_OCCUPIED
-[2025.02.12 09:18:18] RPC Error: request 2542 got fail with code 400, error PHONE_NOT_OCCUPIED
-[2025.02.12 09:18:45] Skipping message, because it is already in blocks!
+[2025.02.13 08:53:15] Launched version: 5010007, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
+[2025.02.13 08:53:15] Executable dir: C:/Users/Administrator/AppData/Roaming/Telegram Desktop/, name: Telegram.exe
+[2025.02.13 08:53:15] Initial working dir: C:/Users/Administrator/AppData/Roaming/Telegram Desktop/
+[2025.02.13 08:53:15] Working dir: C:/Users/Administrator/AppData/Roaming/Telegram Desktop/
+[2025.02.13 08:53:15] Command line: C:\Users\Administrator\AppData\Roaming\Telegram Desktop\Telegram.exe
+[2025.02.13 08:53:15] Executable path before check: C:/Users/Administrator/AppData/Roaming/Telegram Desktop/Telegram.exe
+[2025.02.13 08:53:15] Logs started
+[2025.02.13 08:53:15] App Info: Shortcut validated at "C:/Users/Administrator/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Telegram Desktop/Telegram.lnk"
+[2025.02.13 08:53:15] AppUserModelID: Telegram.TelegramDesktop
+[2025.02.13 08:53:15] Using DirectX compiler 'C:\Users\Administrator\AppData\Roaming\Telegram Desktop\modules\x64\d3d\d3dcompiler_47.dll'.
+[2025.02.13 08:53:16] Connecting local socket to Global\d5c32825fb0463f894382b2b14a44928-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2025.02.13 08:53:16] This is the only instance of Telegram, starting server and app...
+[2025.02.13 08:53:16] Moved logging from 'C:/Users/Administrator/AppData/Roaming/Telegram Desktop/log_start1.txt' to 'C:/Users/Administrator/AppData/Roaming/Telegram Desktop/log.txt'!
+[2025.02.13 08:53:16] Old start log 'log_start0.txt' found, deleted: [TRUE]
+[2025.02.13 08:53:16] Opened 'C:/Users/Administrator/AppData/Roaming/Telegram Desktop/tdata/working' for reading, the previous Telegram Desktop launch was not finished properly :( Crash log size: 0
+[2025.02.13 08:53:16] Global devicePixelRatio: 1
+[2025.02.13 08:53:16] QT_DPI_ADJUSTMENT_POLICY: AdjustDpi
+[2025.02.13 08:53:16] Primary screen DPI: 96, Base: 96.
+[2025.02.13 08:53:16] Computed screen scale: 100
+[2025.02.13 08:53:16] DevicePixelRatio: 1
+[2025.02.13 08:53:16] ScreenScale: 100
+[2025.02.13 08:53:16] Media Info: Type Playback, default: {0.0.0.00000000}.{f8d57fd2-bac7-4a2f-99bc-d2c861a7bddb}, list: { "Speakers (Nahimic Easy Surround device)" <{0.0.0.00000000}.{48f2dcb8-e379-44bf-9c35-6b63f3d22194}>, "Internal AUX Jack (Intel® Smart Sound Technology for Digital Microphones)" <{0.0.0.00000000}.{514e85f1-3bc4-42cb-911a-cb6b7fb01a91}>, "Speakers (Realtek(R) Audio)" <{0.0.0.00000000}.{587c8f57-bb69-4828-909d-844901ecfef5}>, "Speakers (2- High Definition Audio Device)" <{0.0.0.00000000}.{76556731-ac96-40af-a873-7f589d2d4562}>, "Digital Audio (S/PDIF) (2- High Definition Audio Device)" <{0.0.0.00000000}.{91d65077-a2d5-4c0a-9ba5-65c711e9b2a4}>, "Headphones (Realtek(R) Audio)" <{0.0.0.00000000}.{97b8852c-ba5f-478a-b5ad-d57bf2023c2f}>, "Speakers (High Definition Audio Device)" <{0.0.0.00000000}.{ba88b9e9-eb81-44f5-8e4e-f7a3a95a8681}>, "Speakers (Nahimic mirroring device)" <{0.0.0.00000000}.{beba19a9-5878-4f61-ab3f-5156a054656d}>, "Internal AUX Jack (2- High Definition Audio Device)" <{0.0.0.00000000}.{e3ac0224-d5e6-45c1-8e92-7feca8b66a21}>, "Headphones (2- High Definition Audio Device)" <{0.0.0.00000000}.{f8d57fd2-bac7-4a2f-99bc-d2c861a7bddb}> }, full list refresh: false
+[2025.02.13 08:53:16] Media Info: Type Capture, default: {0.0.1.00000000}.{35d72b59-09ab-4162-a89e-33aeac977488}, list: { "Microphone Array (Intel® Smart Sound Technology for Digital Microphones)" <{0.0.1.00000000}.{322eca50-3fe7-4bc1-8107-6c0610aca483}>, "Microphone (2- High Definition Audio Device)" <{0.0.1.00000000}.{35d72b59-09ab-4162-a89e-33aeac977488}>, "Stereo Mix (Realtek(R) Audio)" <{0.0.1.00000000}.{6630fcde-85d4-4cf8-aaad-f21178e2bdbf}>, "Microphone (Realtek(R) Audio)" <{0.0.1.00000000}.{9b246a10-068b-4136-963f-8e9b90672cb8}>, "Microphone (2- High Definition Audio Device)" <{0.0.1.00000000}.{9f37e38e-2fdb-472a-88ac-bd360924b9bc}>, "Line In (2- High Definition Audio Device)" <{0.0.1.00000000}.{a0c2fb29-0c0f-44d6-b787-1a24a191334f}>, "Internal AUX Jack (2- High Definition Audio Device)" <{0.0.1.00000000}.{b55594c0-36b7-47ac-8c4f-b89f97204756}>, "Microphone (High Definition Audio Device)" <{0.0.1.00000000}.{f1f4b93a-003d-49dc-a304-f40ab835b981}> }, full list refresh: false
+[2025.02.13 08:53:16] Media Error: Can't sync default device for type Camera, default: , list: {  }
+[2025.02.13 08:53:16] App Info: reading settings...
+[2025.02.13 08:53:16] App Info: reading encrypted settings...
+[2025.02.13 08:53:16] Lang Info: Loaded cached, keys: 8103
+[2025.02.13 08:53:16] Font: from ':/gui/fonts/OpenSans-Regular.ttf' loaded 'Open Sans'
+[2025.02.13 08:53:16] Font: from ':/gui/fonts/OpenSans-Italic.ttf' loaded 'Open Sans'
+[2025.02.13 08:53:16] Font: from ':/gui/fonts/OpenSans-SemiBold.ttf' loaded 'Open Sans Semibold'
+[2025.02.13 08:53:16] Font: from ':/gui/fonts/OpenSans-SemiBoldItalic.ttf' loaded 'Open Sans Semibold'
+[2025.02.13 08:53:16] Font: from ':/gui/fonts/Vazirmatn-UI-NL-Regular.ttf' loaded 'Vazirmatn UI NL'
+[2025.02.13 08:53:16] Font: from ':/gui/fonts/Vazirmatn-UI-NL-SemiBold.ttf' loaded 'Vazirmatn UI NL SemiBold'
+[2025.02.13 08:53:16] OpenAL Logging Level: (not set)
+[2025.02.13 08:53:16] App Info: reading accounts info...
+[2025.02.13 08:53:16] App Info: reading encrypted info...
+[2025.02.13 08:53:16] App Info: reading map...
+[2025.02.13 08:53:16] App Info: reading encrypted map...
+[2025.02.13 08:53:16] App Info: reading encrypted user settings...
+[2025.02.13 08:53:16] App Info: encrypted user settings read.
+[2025.02.13 08:53:16] App Info: reading encrypted mtp data...
+[2025.02.13 08:53:16] MTP Info: read keys, current: 5, to destroy: 0
+[2025.02.13 08:53:16] Map read time: 46
+[2025.02.13 08:53:16] App Info: reading encrypted mtp config...
+[2025.02.13 08:53:17] Export Info: Destroy top bar by controller removal.
+[2025.02.13 08:53:17] OpenGL: Using custom 'gpu_driver_bug_list.json'.
+[2025.02.13 08:53:18] OpenGL Profile: OpenGLES.
+[2025.02.13 08:53:18] OpenGL Renderer: ANGLE (Intel, Intel(R) UHD Graphics 750 Direct3D11 vs_5_0 ps_5_0, D3D11-31.0.101.4316)
+[2025.02.13 08:53:18] OpenGL Vendor: Google Inc. (Intel)
+[2025.02.13 08:53:18] OpenGL Version: OpenGL ES 3.0.0 (ANGLE 2.1.10 git hash: e3f59e8d0c3e)
+[2025.02.13 08:53:18] OpenGL Extensions: GL_ANGLE_program_cache_control, GL_OES_depth32, GL_OES_texture_float, GL_OES_compressed_EAC_RG11_signed_texture, GL_WEBGL_video_texture, GL_EXT_draw_buffers_indexed, GL_OES_mapbuffer, GL_OES_texture_float_linear, GL_EXT_texture_filter_anisotropic, GL_ANGLE_multiview_multisample, GL_OES_compressed_ETC2_sRGB8_alpha8_texture, GL_CHROMIUM_copy_compressed_texture, GL_OES_fbo_render_mipmap, GL_ANGLE_get_tex_level_parameter, GL_ANGLE_request_extension, GL_CHROMIUM_lose_context, GL_EXT_color_buffer_float, GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture, GL_ANGLE_instanced_arrays, GL_OES_texture_stencil8, GL_ANGLE_multi_draw, GL_OES_compressed_ETC2_sRGB8_texture, GL_EXT_float_blend, GL_ANGLE_client_arrays, GL_OES_surfaceless_context, GL_OVR_multiview2, GL_EXT_texture_compression_bptc, GL_EXT_texture_type_2_10_10_10_REV, GL_KHR_debug, GL_ANGLE_translated_shader_source, GL_NV_framebuffer_blit, GL_EXT_map_buffer_range, GL_EXT_render_snorm, GL_OES_sample_variables, GL_EXT_texture_compression_rgtc, GL_ANGLE_shader_pixel_local_storage, GL_EXT_depth_clamp, GL_ANGLE_depth_texture, GL_EXT_blend_func_extended, GL_EXT_draw_buffers, GL_EXT_conservative_depth, GL_EXT_EGL_image_external_wrap_modes, GL_EXT_shader_texture_lod, GL_OES_packed_depth_stencil, GL_NV_pack_subimage, GL_ANGLE_base_vertex_base_instance_shader_builtin, GL_ANGLE_stencil_texturing, GL_OES_EGL_image_external, GL_EXT_draw_elements_base_vertex, GL_OES_draw_buffers_indexed, GL_ANGLE_shader_pixel_local_storage_coherent, GL_EXT_texture_rg, GL_OVR_multiview, GL_ANGLE_framebuffer_blit, GL_EXT_texture_compression_s3tc_srgb, GL_OES_compressed_EAC_R11_signed_texture, GL_OES_texture_half_float, GL_ANGLE_texture_compression_dxt3, GL_EXT_texture_format_BGRA8888, GL_EXT_clip_cull_distance, GL_OES_depth24, GL_EXT_blend_minmax, GL_EXT_texture_norm16, GL_OES_get_program_binary, GL_ANGLE_get_serialized_context_string, GL_ANGLE_lossy_etc_decode, GL_EXT_sRGB, GL_ANGLE_texture_usage, GL_EXT_instanced_arrays, GL_EXT_texture_border_clamp, GL_EXT_texture_storage, GL_EXT_debug_marker, GL_EXT_disjoint_timer_query, , GL_EXT_robustness, GL_OES_texture_npot, GL_EXT_clip_control, GL_EXT_occlusion_query_boolean, GL_OES_texture_half_float_linear, GL_ANGLE_provoking_vertex, GL_NV_fence, GL_EXT_base_instance, GL_OES_compressed_EAC_RG11_unsigned_texture, GL_ANGLE_base_vertex_base_instance, GL_APPLE_clip_distance, GL_EXT_frag_depth, GL_NV_shader_noperspective_interpolation, GL_OES_EGL_image, GL_EXT_discard_framebuffer, GL_CHROMIUM_copy_texture, GL_NV_EGL_stream_consumer_external, GL_NV_pixel_buffer_object, GL_OES_EGL_image_external_essl3, GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture, GL_OES_standard_derivatives, GL_EXT_read_format_bgra, GL_OES_element_index_uint, GL_OES_rgb8_rgba8, GL_CHROMIUM_bind_generates_resource, GL_EXT_multi_draw_indirect, GL_EXT_texture_compression_dxt1, GL_OES_vertex_array_object, GL_AMD_performance_monitor, GL_ANGLE_framebuffer_multisample, GL_CHROMIUM_sync_query, GL_ANGLE_copy_texture_3d, GL_ANGLE_texture_multisample, GL_ANGLE_robust_client_memory, GL_EXT_color_buffer_half_float, GL_EXT_unpack_subimage, GL_ANGLE_clip_cull_distance, GL_ANGLE_texture_compression_dxt5, GL_ANGLE_pack_reverse_row_order, GL_OES_texture_border_clamp, GL_EXT_debug_label, GL_EXT_multisampled_render_to_texture, GL_OES_draw_elements_base_vertex, GL_OES_compressed_EAC_R11_unsigned_texture, GL_CHROMIUM_bind_uniform_location, GL_EXT_texture_mirror_clamp_to_edge, GL_ANGLE_polygon_mode, GL_KHR_parallel_shader_compile, GL_OES_compressed_ETC2_RGB8_texture, GL_OES_compressed_ETC2_RGBA8_texture, GL_EXT_polygon_offset_clamp, GL_ANGLE_memory_size, GL_ANGLE_renderability_validation, GL_OES_shader_multisample_interpolation
+[2025.02.13 08:53:18] EGL Extensions: EGL_EXT_create_context_robustness, EGL_ANGLE_d3d_share_handle_client_buffer, EGL_ANGLE_d3d_texture_client_buffer, EGL_ANGLE_surface_d3d_texture_2d_share_handle, EGL_ANGLE_query_surface_pointer, EGL_ANGLE_window_fixed_size, EGL_ANGLE_keyed_mutex, EGL_ANGLE_surface_orientation, EGL_ANGLE_direct_composition, EGL_ANGLE_windows_ui_composition, EGL_NV_post_sub_buffer, EGL_KHR_create_context, EGL_KHR_image, EGL_KHR_image_base, EGL_KHR_gl_texture_2D_image, EGL_KHR_gl_texture_cubemap_image, EGL_KHR_gl_renderbuffer_image, EGL_KHR_get_all_proc_addresses, EGL_KHR_stream, EGL_KHR_stream_consumer_gltexture, EGL_NV_stream_consumer_gltexture_yuv, EGL_ANGLE_stream_producer_d3d_texture, EGL_ANGLE_create_context_webgl_compatibility, EGL_CHROMIUM_create_context_bind_generates_resource, EGL_CHROMIUM_sync_control, EGL_EXT_pixel_format_float, EGL_KHR_surfaceless_context, EGL_ANGLE_display_texture_share_group, EGL_ANGLE_display_semaphore_share_group, EGL_ANGLE_create_context_client_arrays, EGL_ANGLE_program_cache_control, EGL_ANGLE_robust_resource_initialization, EGL_ANGLE_create_context_extensions_enabled, EGL_ANDROID_blob_cache, EGL_ANDROID_recordable, EGL_ANGLE_image_d3d11_texture, EGL_ANGLE_create_context_backwards_compatible, EGL_KHR_no_config_context, EGL_KHR_create_context_no_error, EGL_KHR_reusable_sync, 
+[2025.02.13 08:53:18] OpenGL: QOpenGLContext created, version: 3.3.
+[2025.02.13 08:53:18] OpenGL: [TRUE] (Window)
+[2025.02.13 08:53:24] RPC Error: request 74 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2025.02.13 08:53:34] RPC Error: request 114 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 08:53:34] RPC Error: request 139 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 08:54:05] API Warning: not loaded minimal channel applied.
+[2025.02.13 09:00:05] API Warning: not loaded minimal channel applied.
+[2025.02.13 09:12:03] RPC Error: request 293 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 09:12:03] RPC Error: request 301 got fail with code 400, error TOP_MSG_ID_NOT_SUPPORTED
+[2025.02.13 09:12:04] RPC Error: request 308 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 09:12:52] RPC Error: request 345 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 09:12:52] RPC Error: request 352 got fail with code 400, error TOP_MSG_ID_NOT_SUPPORTED
+[2025.02.13 09:12:56] RPC Error: request 366 got fail with code 400, error TOP_MSG_ID_NOT_SUPPORTED
+[2025.02.13 09:12:58] RPC Error: request 376 got fail with code 400, error TOP_MSG_ID_NOT_SUPPORTED
+[2025.02.13 09:14:38] Skipping message, because it is already in blocks!
+[2025.02.13 09:15:27] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 09:15:29] Audio Info: Closing audio playback device.
+[2025.02.13 09:15:31] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 09:15:33] Audio Info: Closing audio playback device.
+[2025.02.13 09:18:06] API Warning: not loaded minimal channel applied.
+[2025.02.13 09:19:44] API Warning: not loaded minimal channel applied.
+[2025.02.13 09:30:25] Skipping message, because it is already in blocks!
+[2025.02.13 09:30:39] Skipping message, because it is already in blocks!
+[2025.02.13 09:32:04] Skipping message, because it is already in blocks!
+[2025.02.13 09:32:49] Skipping message, because it is already in blocks!
+[2025.02.13 09:32:52] Skipping message, because it is already in blocks!
+[2025.02.13 09:32:55] Skipping message, because it is already in blocks!
+[2025.02.13 09:32:57] Skipping message, because it is already in blocks!
+[2025.02.13 09:33:02] Skipping message, because it is already in blocks!
+[2025.02.13 09:33:06] Skipping message, because it is already in blocks!
+[2025.02.13 09:33:17] Skipping message, because it is already in blocks!
+[2025.02.13 09:35:30] Skipping message, because it is already in blocks!
+[2025.02.13 09:35:33] Skipping message, because it is already in blocks!
+[2025.02.13 09:35:34] Skipping message, because it is already in blocks!
+[2025.02.13 09:35:41] Skipping message, because it is already in blocks!
+[2025.02.13 09:44:35] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 09:44:37] Audio Info: Closing audio playback device.
+[2025.02.13 09:45:31] RPC Error: request 572 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 09:51:11] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 09:51:13] Audio Info: Closing audio playback device.
+[2025.02.13 09:52:09] RPC Error: request 606 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 10:00:19] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 10:00:21] Audio Info: Closing audio playback device.
+[2025.02.13 10:05:25] API Warning: not loaded minimal channel applied.
+[2025.02.13 10:05:25] API Warning: not loaded minimal channel applied.
+[2025.02.13 10:22:18] Theme Warning: Skipping value 'mediaviewSaveMsgBg: toastBg' (expected a color value in #rrggbb or #rrggbbaa or a previously defined key in the color scheme)
+[2025.02.13 10:22:18] Theme Warning: Skipping value 'mediaviewSaveMsgFg: toastFg' (expected a color value in #rrggbb or #rrggbbaa or a previously defined key in the color scheme)
+[2025.02.13 10:22:18] Theme Warning: Skipping value 'importantTooltipBg: toastBg' (expected a color value in #rrggbb or #rrggbbaa or a previously defined key in the color scheme)
+[2025.02.13 10:22:18] Theme Warning: Skipping value 'importantTooltipFg: toastFg' (expected a color value in #rrggbb or #rrggbbaa or a previously defined key in the color scheme)
+[2025.02.13 10:22:18] Theme Warning: Skipping value 'importantTooltipFgLink: mediaviewTextLinkFg' (expected a color value in #rrggbb or #rrggbbaa or a previously defined key in the color scheme)
+[2025.02.13 10:23:00] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 10:23:02] Audio Info: Closing audio playback device.
+[2025.02.13 10:23:43] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 10:23:45] Audio Info: Closing audio playback device.
+[2025.02.13 10:23:51] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 10:23:53] Audio Info: Closing audio playback device.
+[2025.02.13 10:24:44] API Warning: not loaded minimal channel applied.
+[2025.02.13 10:29:34] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 10:29:36] Audio Info: Closing audio playback device.
+[2025.02.13 10:47:07] Skipping message, because it is already in blocks!
+[2025.02.13 10:51:21] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 10:51:23] Audio Info: Closing audio playback device.
+[2025.02.13 10:56:06] API Warning: not loaded minimal channel applied.
+[2025.02.13 10:57:38] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 10:57:40] Audio Info: Closing audio playback device.
+[2025.02.13 10:57:41] RPC Error: request 895 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 10:57:41] RPC Error: request 930 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 10:57:58] Skipping message, because it is already in blocks!
+[2025.02.13 11:01:33] Skipping message, because it is already in blocks!
+[2025.02.13 11:02:14] Skipping message, because it is already in blocks!
+[2025.02.13 11:02:44] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 11:02:46] Audio Info: Closing audio playback device.
+[2025.02.13 11:03:01] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 11:03:03] Audio Info: Closing audio playback device.
+[2025.02.13 11:03:21] RPC Error: request 1023 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 11:03:37] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 11:03:39] Audio Info: Closing audio playback device.
+[2025.02.13 11:03:54] API Warning: not loaded minimal channel applied.
+[2025.02.13 11:04:03] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 11:04:05] Audio Info: Closing audio playback device.
+[2025.02.13 11:04:15] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 11:04:17] Audio Info: Closing audio playback device.
+[2025.02.13 11:07:32] API Warning: not loaded minimal channel applied.
+[2025.02.13 11:07:32] API Warning: not loaded minimal channel applied.
+[2025.02.13 11:07:32] API Warning: not loaded minimal channel applied.
+[2025.02.13 11:16:39] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 11:16:41] Audio Info: Closing audio playback device.
+[2025.02.13 11:27:14] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 11:27:16] Audio Info: Closing audio playback device.
+[2025.02.13 11:46:10] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 11:46:12] Audio Info: Closing audio playback device.
+[2025.02.13 11:50:15] API Warning: not loaded minimal channel applied.
+[2025.02.13 11:52:52] API Warning: not loaded minimal channel applied.
+[2025.02.13 11:52:53] API Warning: not loaded minimal channel applied.
+[2025.02.13 11:58:36] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 11:58:38] Audio Info: Closing audio playback device.
+[2025.02.13 12:07:49] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:07:51] Audio Info: Closing audio playback device.
+[2025.02.13 12:11:13] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:11:15] Audio Info: Closing audio playback device.
+[2025.02.13 12:11:31] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:11:33] Audio Info: Closing audio playback device.
+[2025.02.13 12:12:50] RPC Error: request 1251 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 12:13:00] RPC Error: request 1261 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 12:15:41] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:15:43] Audio Info: Closing audio playback device.
+[2025.02.13 12:18:14] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:18:16] Audio Info: Closing audio playback device.
+[2025.02.13 12:19:21] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:19:23] Audio Info: Closing audio playback device.
+[2025.02.13 12:19:46] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:19:48] Audio Info: Closing audio playback device.
+[2025.02.13 12:21:39] RPC Error: request 1286 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 12:21:55] RPC Error: request 1318 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2025.02.13 12:24:45] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:24:47] Audio Info: Closing audio playback device.
+[2025.02.13 12:25:22] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:25:24] Audio Info: Closing audio playback device.
+[2025.02.13 12:26:58] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:27:00] Audio Info: Closing audio playback device.
+[2025.02.13 12:29:48] API Warning: not loaded minimal channel applied.
+[2025.02.13 12:30:23] API Warning: not loaded minimal channel applied.
+[2025.02.13 12:35:36] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:35:38] Audio Info: Closing audio playback device.
+[2025.02.13 12:35:38] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:35:40] Audio Info: Closing audio playback device.
+[2025.02.13 12:38:21] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:38:23] Audio Info: Closing audio playback device.
+[2025.02.13 12:38:34] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:38:36] Audio Info: Closing audio playback device.
+[2025.02.13 12:41:11] RPC Error: request 1370 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 12:41:11] API Error: Got empty admins list from server.
+[2025.02.13 12:41:11] RPC Error: request 1396 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 12:43:13] Skipping message, because it is already in blocks!
+[2025.02.13 12:43:24] RPC Error: request 1441 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 12:43:24] RPC Error: request 1448 got fail with code 400, error TOP_MSG_ID_NOT_SUPPORTED
+[2025.02.13 12:43:29] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:43:31] Audio Info: Closing audio playback device.
+[2025.02.13 12:43:32] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:43:34] Audio Info: Closing audio playback device.
+[2025.02.13 12:45:02] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:45:04] Audio Info: Closing audio playback device.
+[2025.02.13 12:45:06] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:45:08] Audio Info: Closing audio playback device.
+[2025.02.13 12:45:26] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:45:28] Audio Info: Closing audio playback device.
+[2025.02.13 12:45:30] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:45:32] Audio Info: Closing audio playback device.
+[2025.02.13 12:46:10] RPC Error: request 1467 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 12:46:14] RPC Error: request 1473 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 12:58:32] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 12:58:34] Audio Info: Closing audio playback device.
+[2025.02.13 12:59:40] RPC Error: request 1546 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 12:59:42] RPC Error: request 1555 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2025.02.13 12:59:42] RPC Error: request 1554 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2025.02.13 13:07:59] API Warning: not loaded minimal channel applied.
+[2025.02.13 13:07:59] API Warning: not loaded minimal channel applied.
+[2025.02.13 13:08:48] RPC Error: request 1598 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 13:08:48] RPC Error: request 1605 got fail with code 400, error TOP_MSG_ID_NOT_SUPPORTED
+[2025.02.13 13:09:11] RPC Error: request 1633 got fail with code 400, error TOP_MSG_ID_NOT_SUPPORTED
+[2025.02.13 13:11:10] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:11:12] Audio Info: Closing audio playback device.
+[2025.02.13 13:11:21] RPC Error: request 1652 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 13:11:21] RPC Error: request 1660 got fail with code 400, error TOP_MSG_ID_NOT_SUPPORTED
+[2025.02.13 13:11:21] RPC Error: request 1664 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 13:11:22] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:11:24] Audio Info: Closing audio playback device.
+[2025.02.13 13:11:40] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:11:42] Audio Info: Closing audio playback device.
+[2025.02.13 13:11:46] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:11:48] Audio Info: Closing audio playback device.
+[2025.02.13 13:11:49] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:11:51] Audio Info: Closing audio playback device.
+[2025.02.13 13:11:51] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:11:53] Audio Info: Closing audio playback device.
+[2025.02.13 13:13:08] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:13:10] Audio Info: Closing audio playback device.
+[2025.02.13 13:14:02] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:14:04] Audio Info: Closing audio playback device.
+[2025.02.13 13:16:36] Skipping message, because it is already in blocks!
+[2025.02.13 13:17:06] RPC Error: request 1798 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 13:17:06] RPC Error: request 1799 got fail with code 400, error TOP_MSG_ID_NOT_SUPPORTED
+[2025.02.13 13:17:35] RPC Error: request 1809 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 13:23:47] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:23:49] Audio Info: Closing audio playback device.
+[2025.02.13 13:31:15] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:31:17] Audio Info: Closing audio playback device.
+[2025.02.13 13:31:19] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:31:21] Audio Info: Closing audio playback device.
+[2025.02.13 13:35:13] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:35:15] Audio Info: Closing audio playback device.
+[2025.02.13 13:36:15] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:36:17] Audio Info: Closing audio playback device.
+[2025.02.13 13:38:41] RPC Error: request 1907 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 13:46:51] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:46:53] Audio Info: Closing audio playback device.
+[2025.02.13 13:55:31] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 13:55:33] Audio Info: Closing audio playback device.
+[2025.02.13 14:00:14] RPC Error: request 1982 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2025.02.13 14:08:16] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 14:08:18] RPC Error: request 2015 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 14:08:18] Audio Info: Closing audio playback device.
+[2025.02.13 14:08:37] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 14:08:37] RPC Error: request 2053 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2025.02.13 14:08:39] Audio Info: Closing audio playback device.
+[2025.02.13 14:08:44] RPC Error: request 2058 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 14:12:35] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 14:12:37] Audio Info: Closing audio playback device.
+[2025.02.13 14:15:42] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 14:15:44] Audio Info: Closing audio playback device.
+[2025.02.13 14:18:05] API Warning: not loaded minimal channel applied.
+[2025.02.13 14:22:56] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 14:22:57] Audio Info: Closing audio playback device.
+[2025.02.13 14:23:21] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 14:23:24] Audio Info: Closing audio playback device.
+[2025.02.13 14:30:29] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 14:30:31] Audio Info: Closing audio playback device.
+[2025.02.13 14:42:24] API Warning: not loaded minimal channel applied.
+[2025.02.13 14:42:29] API Warning: not loaded minimal channel applied.
+[2025.02.13 14:42:49] API Warning: not loaded minimal channel applied.
+[2025.02.13 14:43:31] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 14:43:33] Audio Info: Closing audio playback device.
+[2025.02.13 14:43:56] RPC Error: request 2238 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 14:43:56] RPC Error: request 2239 got fail with code 400, error TOP_MSG_ID_NOT_SUPPORTED
+[2025.02.13 14:47:12] RPC Error: request 2283 got fail with code 400, error PEER_ID_INVALID
+[2025.02.13 14:47:12] RPC Error: request 2290 got fail with code 400, error TOP_MSG_ID_NOT_SUPPORTED
+[2025.02.13 14:48:23] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 14:48:25] Audio Info: Closing audio playback device.
+[2025.02.13 14:55:58] Skipping message, because it is already in blocks!
+[2025.02.13 14:56:26] Skipping message, because it is already in blocks!
+[2025.02.13 14:56:35] Skipping message, because it is already in blocks!
+[2025.02.13 15:04:43] Skipping message, because it is already in blocks!
+[2025.02.13 15:04:55] Skipping message, because it is already in blocks!
+[2025.02.13 15:05:04] Skipping message, because it is already in blocks!
+[2025.02.13 15:07:23] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 15:07:25] Audio Info: Closing audio playback device.
+[2025.02.13 15:07:25] RPC Error: request 2446 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2025.02.13 15:07:26] RPC Error: request 2444 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2025.02.13 15:07:26] RPC Error: request 2445 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2025.02.13 15:07:26] RPC Error: request 2466 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2025.02.13 15:07:30] Skipping message, because it is already in blocks!
+[2025.02.13 15:07:44] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 15:07:46] Audio Info: Closing audio playback device.
+[2025.02.13 15:08:03] Audio Info: recreating audio device and reattaching the tracks
+[2025.02.13 15:08:05] Audio Info: Closing audio playback device.
+[2025.02.13 15:09:30] RPC Error: request 2500 got fail with code 400, error PHONE_NOT_OCCUPIED
+[2025.02.13 15:09:41] Skipping message, because it is already in blocks!
+[2025.02.13 15:09:47] Skipping message, because it is already in blocks!
+[2025.02.13 15:10:03] Skipping message, because it is already in blocks!
+[2025.02.13 15:10:09] Skipping message, because it is already in blocks!
+[2025.02.13 15:10:13] Skipping message, because it is already in blocks!
+[2025.02.13 15:10:21] Skipping message, because it is already in blocks!
+[2025.02.13 15:11:26] Skipping message, because it is already in blocks!
+[2025.02.13 15:11:32] Skipping message, because it is already in blocks!
+[2025.02.13 15:11:37] Skipping message, because it is already in blocks!
+[2025.02.13 15:13:17] Skipping message, because it is already in blocks!

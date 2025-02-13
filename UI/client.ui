@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QPlainTextEdit" name="plainTextEdit_open_text">
@@ -128,7 +128,7 @@
  сообщение</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="pushButton_let_message">
       <property name="geometry">
        <rect>
         <x>440</x>
@@ -166,7 +166,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Логин пользователя в telegramm</string>
+       <string>ID пользователя в telegramm</string>
       </property>
      </widget>
      <widget class="QPlainTextEdit" name="plainTextEdit_public_key_on_get">
@@ -195,6 +195,19 @@
       </property>
       <property name="text">
        <string>Открытый ключ</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_let_file_window">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>710</y>
+        <width>291</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Перейти к отправке файла</string>
       </property>
      </widget>
     </widget>
