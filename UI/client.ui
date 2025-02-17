@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QPlainTextEdit" name="plainTextEdit_open_text">
@@ -414,6 +414,7 @@
       </property>
      </widget>
     </widget>
+    <widget class="QWidget" name="page_3"/>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
