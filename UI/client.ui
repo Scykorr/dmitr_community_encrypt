@@ -128,47 +128,6 @@
  сообщение</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_let_message">
-      <property name="geometry">
-       <rect>
-        <x>440</x>
-        <y>630</y>
-        <width>171</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Отправить</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="lineEdit_tg_username">
-      <property name="geometry">
-       <rect>
-        <x>260</x>
-        <y>630</y>
-        <width>151</width>
-        <height>31</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_11">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>630</y>
-        <width>231</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>11</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>ID пользователя в telegramm</string>
-      </property>
-     </widget>
      <widget class="QPlainTextEdit" name="plainTextEdit_public_key_on_get">
       <property name="geometry">
        <rect>
