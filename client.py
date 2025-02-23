@@ -2,10 +2,14 @@ import os
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QFileDialog
 from GUI.client import Ui_MainWindow
 import socket
 import rsa
 import json
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+from cryptography.hazmat.backends import default_backend
+from cryptography.hazmat.primitives import padding
 
 
 class MainClass(QtWidgets.QMainWindow, Ui_MainWindow):
@@ -41,6 +45,10 @@ class MainClass(QtWidgets.QMainWindow, Ui_MainWindow):
         self.pushButton_gen_symm_key.clicked.connect(self.gen_sym_key)
         self.pushButton_sypher_open_key.clicked.connect(self.sypher_open_key)
         self.pushButton_gen_symm_key_2.clicked.connect(self.gen_sym_key_from_msg)
+        self.pushButton_choose_file.clicked.connect(self.choose_file)
+        self.pushButton_cypher_file.clicked.connect(self.cypher_file)
+        self.pushButton_decript_file.clicked.connect(self.decrypt_file)
+        self.pushButton_choose_encrypt_file.clicked.connect(self.choose_encrypt_file)
         self.check_keys()
 
     def check_keys(self):
@@ -51,10 +59,15 @@ class MainClass(QtWidgets.QMainWindow, Ui_MainWindow):
         with open('sym_key.json', 'r') as fh:
             sym_key = json.load(fh)
         sym_key = bytes(sym_key.encode('CP866'))
-        print(sym_key)
         with open('sym_iv.json', 'r') as fh:
             sym_iv = json.load(fh)
         sym_iv = bytes(sym_iv.encode('CP866'))
+        with open('inp_sym_key.json', 'r') as fh:
+            inp_sym_key = json.load(fh)
+        inp_sym_key = bytes(inp_sym_key.encode('CP866'))
+        with open('inp_sym_iv.json', 'r') as fh:
+            inp_sym_iv = json.load(fh)
+        inp_sym_iv = bytes(inp_sym_iv.encode('CP866'))
         if keys_view:
             self.plainTextEdit_public_key.clear()
             self.plainTextEdit_public_key.appendPlainText(keys_view[0])
@@ -67,9 +80,9 @@ class MainClass(QtWidgets.QMainWindow, Ui_MainWindow):
             self.plainTextEdit_unsypher_symm_key.clear()
             self.plainTextEdit_unsypher_symm_key.appendPlainText(keys_view[1])
             self.plainTextEdit_symm_rand_key.clear()
-            self.plainTextEdit_symm_rand_key.appendPlainText(str(sym_key))
+            self.plainTextEdit_symm_rand_key.appendPlainText(str(inp_sym_key))
             self.plainTextEdit_symm_init_vector.clear()
-            self.plainTextEdit_symm_init_vector.appendPlainText(str(sym_iv))
+            self.plainTextEdit_symm_init_vector.appendPlainText(str(inp_sym_iv))
 
     def gen_sym_key(self):
         self.plainTextEdit_symm_rand_key.clear()
@@ -188,6 +201,71 @@ class MainClass(QtWidgets.QMainWindow, Ui_MainWindow):
         with open('inp_sym_iv.json', 'w') as fh:
             json.dump(message_iv.decode('CP866'), fh)
 
+    def choose_file(self):
+        file = QFileDialog.getOpenFileName(self, 'Open file', None, "File (*.*)")[0]
+        self.lineEdit_file_address.setText(file)
+        self.lineEdit_file_address_2.setText(file)
+
+    def cypher_file(self):
+        with open('inp_sym_key.json', 'r') as fh:
+            sym_key = json.load(fh)
+        sym_key = bytes(sym_key.encode('CP866'))
+        with open('inp_sym_iv.json', 'r') as fh:
+            sym_iv = json.load(fh)
+        sym_iv = bytes(sym_iv.encode('CP866'))
+        cipher = Cipher(algorithms.AES(sym_key), modes.CBC(sym_iv),
+                        backend=default_backend())
+        encryptor = cipher.encryptor()
+
+        # Чтение данных из файла
+        with open(self.lineEdit_file_address.text(), 'rb') as f:
+            plaintext = f.read()
+
+        # Добавление padding (дополнение данных до размера, кратного 16 байтам)
+        padder = padding.PKCS7(algorithms.AES.block_size).padder()
+        padded_data = padder.update(plaintext) + padder.finalize()
+
+        # Шифрование данных
+        ciphertext = encryptor.update(padded_data) + encryptor.finalize()
+        output_file = self.lineEdit_file_address_2.text()
+        # Запись зашифрованных данных в файл
+        with open(output_file, 'wb') as f:
+            f.write(sym_iv + ciphertext)  # Сохраняем IV и зашифрованные данные
+
+    def choose_encrypt_file(self):
+        file = QFileDialog.getOpenFileName(self, 'Open file', None, "File (*.*)")[0]
+        self.lineEdit_file_encrypt_addr.setText(file)
+        self.lineEdit_file_encrypt_addr_2.setText(file)
+
+    def decrypt_file(self):
+        with open('inp_sym_key.json', 'r') as fh:
+            sym_key = json.load(fh)
+        sym_key = bytes(sym_key.encode('CP866'))
+        with open('inp_sym_iv.json', 'r') as fh:
+            sym_iv = json.load(fh)
+        sym_iv = bytes(sym_iv.encode('CP866'))
+        with open(self.lineEdit_file_encrypt_addr.text(), 'rb') as f:
+            data = f.read()
+
+        # Извлечение IV и зашифрованных данных
+        sym_iv = data[:16]
+        ciphertext = data[16:]
+
+        # Инициализация шифра
+        cipher = Cipher(algorithms.AES(sym_key), modes.CBC(sym_iv),
+                        backend=default_backend())
+        decryptor = cipher.decryptor()
+
+        # Расшифрование данных
+        padded_plaintext = decryptor.update(ciphertext) + decryptor.finalize()
+
+        # Удаление padding
+        unpadder = padding.PKCS7(algorithms.AES.block_size).unpadder()
+        plaintext = unpadder.update(padded_plaintext) + unpadder.finalize()
+
+        # Запись расшифрованных данных в файл
+        with open(self.lineEdit_file_encrypt_addr_2.text(), 'wb') as f:
+            f.write(plaintext)
 
 
 if __name__ == "__main__":

@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QPlainTextEdit" name="plainTextEdit_open_text">
@@ -412,7 +412,7 @@
        <rect>
         <x>2</x>
         <y>290</y>
-        <width>271</width>
+        <width>491</width>
         <height>20</height>
        </rect>
       </property>
@@ -420,7 +420,7 @@
      <widget class="QPushButton" name="pushButton_choose_file">
       <property name="geometry">
        <rect>
-        <x>290</x>
+        <x>510</x>
         <y>290</y>
         <width>111</width>
         <height>23</height>
@@ -474,8 +474,8 @@
      <widget class="QPushButton" name="pushButton_cypher_file">
       <property name="geometry">
        <rect>
-        <x>260</x>
-        <y>570</y>
+        <x>230</x>
+        <y>650</y>
         <width>111</width>
         <height>31</height>
        </rect>
@@ -610,8 +610,8 @@
      <widget class="QPushButton" name="pushButton_get_msg_window_2">
       <property name="geometry">
        <rect>
-        <x>410</x>
-        <y>620</y>
+        <x>400</x>
+        <y>650</y>
         <width>101</width>
         <height>41</height>
        </rect>
@@ -624,8 +624,8 @@
      <widget class="QPushButton" name="pushButton_get_file_window">
       <property name="geometry">
        <rect>
-        <x>530</x>
-        <y>620</y>
+        <x>520</x>
+        <y>650</y>
         <width>101</width>
         <height>41</height>
        </rect>
@@ -633,6 +633,34 @@
       <property name="text">
        <string>Получить
  файл</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_file_address_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>610</y>
+        <width>491</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>570</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Адрес зашифрованного файла</string>
       </property>
      </widget>
     </widget>
@@ -740,37 +768,11 @@
        <string>Открытый ключ</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_file_encrypt_key">
-      <property name="geometry">
-       <rect>
-        <x>2</x>
-        <y>240</y>
-        <width>271</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_choose_encrypt_key">
-      <property name="geometry">
-       <rect>
-        <x>290</x>
-        <y>240</y>
-        <width>171</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Выбор открытого ключа</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="pushButton_decript_file">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>290</y>
+        <x>220</x>
+        <y>310</y>
         <width>171</width>
         <height>23</height>
        </rect>
@@ -791,6 +793,37 @@
       <property name="text">
        <string>Отправить
  файл</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_file_encrypt_addr_2">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>270</y>
+        <width>461</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>230</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Адрес расшифрованного файла</string>
       </property>
      </widget>
     </widget>
