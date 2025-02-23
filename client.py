@@ -20,6 +20,21 @@ class MainClass(QtWidgets.QMainWindow, Ui_MainWindow):
             lambda: self.choose_operator(page_index=1))
         self.pushButton_put_msg_window.clicked.connect(
             lambda: self.choose_operator(page_index=0))
+        self.pushButton_let_file_window_2.clicked.connect(
+            lambda: self.choose_operator(page_index=2)
+        )
+        self.pushButton_get_msg_window_2.clicked.connect(
+            lambda: self.choose_operator(page_index=1)
+        )
+        self.pushButton_get_file_window.clicked.connect(
+            lambda: self.choose_operator(page_index=3)
+        )
+        self.pushButton_file_let_page.clicked.connect(
+            lambda: self.choose_operator(page_index=2)
+        )
+        self.pushButton_let_file_window.clicked.connect(
+            lambda: self.choose_operator(page_index=2))
+
         self.pushButton_uncypher.clicked.connect(self.decrypt_msg)
 
     def gen_keys(self):
