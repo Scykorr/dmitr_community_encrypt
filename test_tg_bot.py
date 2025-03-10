@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-token = os.getenv('TOKEN')
+token = '7724435548:AAG5lix0YKaPjEW2rVuj5Fnn7avFNfGkId4'
 # Инициализация бота и диспетчера
 bot = Bot(token=token)
 dp = Dispatcher()
